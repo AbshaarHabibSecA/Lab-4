@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    background: #aaa1c8;
+    background: #AAA1C8;
     color:black;
     padding: 2em;
     text-align: center;
@@ -37,7 +37,7 @@ footer {
 }
 
 .personal-info, .hobbies, .work-experience {
-    background-color: #fff;
+    background-color: #967aa1;
     margin: 1em;
     padding: 1em;
     border-radius: 8px;
@@ -72,4 +72,17 @@ section {
 
 .personal-info,.hobbies,.work-experience {
     animation:fadein 2.5s ease-in;
+}
+
+a {
+    text-decoration:none;
+    color: #333;
+}
+
+a:hover {
+    color:#007BFF;
+}
+
+a:active {
+    outline: 3px solid #007BFF
 }
