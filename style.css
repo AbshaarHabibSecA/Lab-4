@@ -1,0 +1,75 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    background-color: #F5E6E8;
+}
+
+header {
+    background: #D5C6E0;
+    color:black;
+    padding: 2em 0;
+    text-align: center;
+}
+
+nav {
+    background: #aaa1c8;
+    color:black;
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em 0;
+}
+
+footer {
+    background: #192A51;
+    color:#fff;
+    text-align: center;
+    padding: 1em 0;
+    position:absolute;
+    bottom:0;
+    width:100%
+}
+
+.personal-info, .hobbies, .work-experience {
+    background-color: #fff;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    width: 80%;
+    max-width: 600px;
+}
+
+section {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.personal-info,.hobbies,.work-experience{
+    flex: 1;
+    margin: 1em;
+}
+
+.personal-info:hover,.hobbies:hover,.work-experience:hover{
+    background-color: #AAA1C8;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.personal-info,.hobbies,.work-experience {
+    animation:fadein 2.5s ease-in;
+}
