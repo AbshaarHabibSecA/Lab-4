@@ -27,11 +27,11 @@ section {
 }
 
 footer {
-    background: #192A51;
-    color:#fff;
+    background: #785d83;
+    color:black;
     text-align: center;
-    padding: 1em 0;
-    position:absolute;
+    padding: .5em 0;
+    position:relative;
     bottom:0;
     width:100%
 }
@@ -85,4 +85,8 @@ a:hover {
 
 a:active {
     outline: 3px solid #007BFF
+}
+
+.personal-info,.hobbies,.work-experience {
+    transition: background-color 0.3 ease;
 }
